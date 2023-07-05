@@ -21,11 +21,6 @@ html, body {
   }
 
   .container-fluid {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
    
   }
 
@@ -40,7 +35,7 @@ html, body {
     height: 285px;
     text-indent: -9999px; /*Escondendo o texto "caso o css nao rode o texto do lado entrara no lugar da logo"*/
     display: block;
-    background: url(SiteMath/Logo2Trasparente.png) no-repeat;
+    background: url(SiteMath/logo3.png) no-repeat;
    
 }
 /*Fim Logo*/
@@ -98,52 +93,69 @@ a:link , a:visited{
 /*Sempre atento com a pontuação e com letra MAIUSCULA e minuscula*/
 
 /*Inicio Conteudo*/
-#Conteudo #Informe{
-    position: absolute;
-    width: 500px;
-    left: 100px;
+#comprimento{
+    color: #ebe6e6;
+    width: 50%;
+    text-align: center;
+     margin-left: 30%;
+     margin-right: 30%;
 }
+#txtComprimento{
+    width: 50%;
+   margin-left: 30%;
+   margin-right: 30%;
+   border-radius: 30px;
+   margin-bottom: 10px;
+}
+#Sexo{
+    color: #ebe6e6;
+    width: 50%;
+    margin-left: 31%;
+   margin-right: 30%;
+}
+#Conteudo{
+  flex-direction: column;
+  width: 600px;
+ margin-left: 30%;
+ margin-right: 30%;
+}
+
+#btnOla{
+    width: 30%;
+    padding: 1%;
+    margin-left: 40%;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#btnOla:hover{
+    background: #c73a3a;
+}
+
 
 #Conteudo #Informe h2{
     color: #ebe6e6;
+    text-align: center;
 }
 
 #Conteudo #Informe p{
     color: #ebe6e6;
+    text-align: center;
 }
 
 #Conteudo #Conhecimento{
     color: #ebe6e6;
-    position: absolute;
-    left: 100px;
-    top: 600px;
+   
    
 }
 /*Fim Conteudo*/
 
-/*Inicio aside*/
-#Lado{
-   position: absolute;
-   width: 500px;
-   left: 700px;
-}
 
-#Lado h2{
-    color: #ebe6e6;
-}
-
-#Lado ul{
-    color: #ebe6e6;
-}
-
-#Lado ul li img{
-    width: 100px;
-}
-/*Fim aside*/
 
 /*Inico rodape*/
 #Rodape{
-    position: absolute;
+
     height: 100px;
     top: 1400px;
     width: 100%;
